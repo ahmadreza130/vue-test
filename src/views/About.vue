@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
     <Create :create="create" />
     <hr/>
     <div v-for="resume in resumes" :key="resume.id">
